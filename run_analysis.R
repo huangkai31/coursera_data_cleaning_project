@@ -4,7 +4,7 @@
 X_training <- read.table("data/train/X_train.txt")
 X_test <- read.table("data/test/X_test.txt")
 df <- rbind(X_training,X_test)
-# head(df, 1)
+# head(df, 3)
 
 # Extracts only the measurements on the mean and standard deviation for each measurement. 
 features <- read.table("data/features.txt")[,2]
